@@ -368,7 +368,7 @@ function Dashboard({
         <a href="https://calendar.google.com" target="_blank">Calendar</a>
         <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
         <a href="https://github.com" target="_blank">GitHub</a>
-        <a href="https://stripe.com" target="_blank">Stripe</a>
+        <a href="https://bookvirelle.com" target="_blank">Virelle</a>
         <a href="https://www.squarespace.com" target="_blank">Squarespace</a>
       </div>
 
