@@ -1,0 +1,149 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f7f4ef;
+  color: #333;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  color: #8d7f72;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 300px 1fr 330px;
+  gap: 24px;
+  align-items: start;
+}
+
+.leftColumn,
+.centerColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  padding: 16px;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.06);
+}
+
+.small-card {
+  min-height: auto;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 14px;
+  background: #faf7f2;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 250px;
+  resize: vertical;
+}
+
+button {
+  border: none;
+  border-radius: 14px;
+  padding: 12px 16px;
+  background: #d8c7b7;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.task span {
+  flex: 1;
+}
+
+.task button {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+}
+
+.quick-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.quick-links a {
+  text-decoration: none;
+  background: #faf7f2;
+  color: #5a4d42;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.arabicVerse {
+  font-size: 30px;
+  line-height: 1.8;
+  text-align: right;
+  direction: rtl;
+  color: #5a4d42;
+}
+
+.englishVerse {
+  font-style: italic;
+}
+
+.reference,
+.meaning {
+  color: #8d7f72;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.eventModal {
+  background: #fffaf4;
+  width: 430px;
+  padding: 28px;
+  border-radius: 24px;
+}
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
